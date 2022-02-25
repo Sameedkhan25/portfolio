@@ -30,19 +30,21 @@ const ProfileText = ({ status, titleId }) => (
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      I’m Hamish, currently I live in Sydney working as a senior product designer at{' '}
-      <Link href="https://www.qwilr.com">Qwilr</Link>. My projects include UX design, UI
-      animations, and icon illustration. Being comfortable with code allows me to rapidly
-      prototype and validate experiences. If you're interested in the tools and software I
-      use check out my <Link href="/uses">uses page</Link>.
+      I’m Sameed, currently I live in Pakistan working as a Frontend developer at{' '}
+      <Link href="https://www.carecloud.com/">Carecloud</Link>. I am a passionate Web
+      developer and love to create interactive web apps. I have experience of web and
+      mobile applications using the latest technologies. I focus on building web apps that
+      are interactive, fast, and scalable. I have expertise in these technologies and
+      tools -> <Link href="/uses">tech/tools page</Link>.
     </Text>
     <Text
       className={classNames('profile__description', `profile__description--${status}`)}
       size="l"
     >
-      In my spare time I like to practice Brazilian Jiu Jitsu, play video games, and{' '}
-      <Link href="/projects/volkihar-knight">make mods</Link>. I’m always down for hearing
-      about new projects, so feel free to drop me a line.
+      In my spare time I like to watch videos on youtube, movies and play games - PUBG. I
+      spent most of my time learning new stuff like new technologies and frameworks. I
+      have intesrest in learning buisiness, astronomy, and history. Now a days I am
+      learning about NFTS and web3 stuff.
     </Text>
   </Fragment>
 );
@@ -64,14 +66,14 @@ const Profile = ({ id, visible, sectionRef }) => {
           <div className="profile__content">
             <div className="profile__column">
               <ProfileText status={status} titleId={titleId} />
-              <Button
+              {/* <Button
                 secondary
                 className={classNames('profile__button', `profile__button--${status}`)}
                 href="/contact"
                 icon="send"
               >
                 Send me a message
-              </Button>
+              </Button> */}
             </div>
             <div className="profile__column">
               <div className="profile__tag" aria-hidden>

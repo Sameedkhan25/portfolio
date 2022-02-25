@@ -91,7 +91,7 @@ const ProjectSummary = ({
     <div className="project-summary__preview">
       {model.type === 'laptop' && (
         <Fragment>
-          <KatakanaProject
+          {/* <KatakanaProject
             style={{ '--opacity': svgOpacity }}
             className={classNames(
               'project-summary__svg',
@@ -120,7 +120,7 @@ const ProjectSummary = ({
                 },
               },
             ]}
-          />
+          /> */}
         </Fragment>
       )}
       {model.type === 'phone' && (

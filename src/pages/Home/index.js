@@ -23,7 +23,13 @@ import { useEffect, useRef, useState } from 'react';
 import { Helmet } from 'react-helmet';
 import { useLocation } from 'react-router-dom';
 
-const disciplines = ['Developer', 'Prototyper', 'Animator', 'Illustrator', 'Modder'];
+const disciplines = [
+  'reactjs',
+  'typscript',
+  'nextjs',
+  'javascript (ES6/ES7/ES8)',
+  'HTML/CSS',
+];
 
 const Home = () => {
   const { status } = useRouteTransition();
@@ -139,7 +145,7 @@ const Home = () => {
   return (
     <div className="home">
       <Helmet>
-        <title>Hamish Williams | Designer + Developer</title>
+        <title>SAMEED KHAN|Frontend Developer</title>
         <meta
           name="description"
           content="Portfolio of Hamish Williams – a digital designer working on web &amp; mobile
